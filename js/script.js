@@ -45,7 +45,7 @@ function randomBackgroundColor () {
 }
 
 var quoteRefresh = setInterval(printQuote, 20000);// sets timer for change of quotes
-var backrounndRefresh = setInterval(randomBackgroundColor, 20000);//sets timer for change of background color.
+var backgroundRefresh = setInterval(randomBackgroundColor, 20000);//sets timer for change of background color.
 
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
