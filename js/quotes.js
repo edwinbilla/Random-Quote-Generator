@@ -1,6 +1,8 @@
+ /*jshint esversion: 6 */
+
 //Array of quotes(objects)
 
-var quotes = [
+let quotes = [
 	{
 		quote : "In order to succeed, your desire for success should be greater than your fear of failure.",
 		source : "Bill Cosby",
